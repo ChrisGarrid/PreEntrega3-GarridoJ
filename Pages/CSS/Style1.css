@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3d2c1; /* moradorosa */
+}
+
+header {
+    background-color: #5a3840;/* café oscuro */
+    color: #f0e6d3;; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 10px;
+}
+/* Contactanos */
+.contact-image{
+    margin-top: 10px;
+    display: flex;
+}
+.Contactanos {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    background-color: #ffffff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Contactanos h2 {
+    margin-top: 0;
+}
+
+.Contactanos form {
+    text-align: left;
+}
+
+.Contactanos label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Contactanos input[type="text"],
+.Contactanos input[type="email"],
+.Contactanos input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Contactanos input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.Contactanos input[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Contactanos input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor sobre el botón */
+}
+/* blog */
+.blog-post {
+    max-width: 800px; /* Cambia este valor según tus preferencias */
+    margin: 0 auto; /* Esto centra el elemento horizontalmente */
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección del flexbox a columna */
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 50%; /* Ancho máximo igual al 100% */
+    /* border: 1px solid #ccc; Agrega un borde sólido de 1px */
+}
+.content h2 {
+    margin-top: 0;
+}
+
+.excerpt {
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comments h3 {
+    margin-top: 0;
+}
+
+.comments form textarea {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.comments form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Porducto */
+.containerProducto {
+    max-width: 800px; /* Cambia este valor según tus preferencias */
+    margin: 0 auto; /* Esto centra el elemento horizontalmente */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.price {
+    color: #888;
+}
+/* equipo */
+.container {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #9a742d;; /* café claro */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #55423d; /* café*/
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+}
+/* menu desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9a742d; /* café claro */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #FFFFFF; /* Blanco */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #55423d; /* café */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+footer {
+    background-color: #12090a; /* café oscuro */
+    color: #f0e6d3;; /* Blanco */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Galeria de imagenes */
+/* .gallery { */
+    /* display: flex; */
+    /* flex-wrap: wrap; Envuelve las imágenes cuando no caben en una sola fila */
+    /* justify-content: space-between; Espacio uniformemente distribuido entre las imágenes */
+/* } */
+
+/* .gallery img { */
+    /* width: calc(33.33% - 10px); Ancho de cada imagen (ajustable según el número de imágenes) */
+    /* height: auto; Para mantener la proporción de aspecto */
+    /* margin-bottom: 20px; Espacio entre las imágenes */
+    /* box-sizing: border-box; Incluye el padding y el borde en el ancho total */
+/* } */
+
+/* Tabla de galeria */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Combinar los bordes de las celdas */
+}
+p{
+    margin-top: 100px;
+}
+td {
+    
+    padding: 10px; /* Espaciado interno de las celdas */
+    border: 1px solid #ccc; /* Borde de las celdas */
+    text-align: center; /* Alinear contenido al centro */
+}
+img {
+    max-width: 70%; /* Ajustar el tamaño máximo de las imágenes */
+    /* height: auto; */
+    max-height: 1000px; /* Establecer la altura máxima de las imágenes */
+}
