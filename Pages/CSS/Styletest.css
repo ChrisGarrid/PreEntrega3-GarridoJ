@@ -3,29 +3,42 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f3d2c1; /* moradorosa */
-}
 
+}
 header {
+
     background-color: #5a3840;/* café oscuro */
     color: #f0e6d3;; /* Blanco */
     padding: 20px;
     text-align: center;
 }
+
 section {
     padding: 10px;
+    background-image:url(1setasenlamaleza.png);
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
+
 /* Contactanos */
 .contact-image{
     margin-top: 10px;
     display: flex;
 }
 .Contactanos {
+    background: #5462F1;
+    background: linear-gradient(135deg, #5a3840, #f3d2c1);
+    border-style: dashed;
     max-width: 600px; /* Ancho máximo del formulario */
     margin: 0 auto; /* Centrar horizontalmente */
-    background-color: #ffffff; /* Color de fondo del formulario */
+    /* background-color: #ffffff;  Color de fondo del formulario */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .Contactanos h2 {
@@ -170,23 +183,6 @@ section {
     display: flex;
 }
 
-.containerProducto {
-    max-width: 800px; /* Cambia este valor según tus preferencias */
-    margin: 0 auto; /* Esto centra el elemento horizontalmente */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.containerproductocarrucel{
-    margin-left: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
-.containertext-center{
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
 .item {
     text-align: center;
 }
