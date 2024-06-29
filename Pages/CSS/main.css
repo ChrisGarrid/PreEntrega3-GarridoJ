@@ -215,7 +215,7 @@ section {
 }
 
 .Contactanos {
-  background: linear-gradient(135deg, #5a3840, #f3d2c1);
+  background: radial-gradient(circle, #6b8e23, #556b2f, #8b4513); /* De verde musgo a verde oliva y marrón */
   border-style: dashed;
   max-width: 600px;
   margin: 0 auto;
