@@ -1,6 +1,18 @@
 @charset "UTF-8";
 @import url(utilities/_variables.scss);
 @import url(utilities/_mixing.scss);
+figcaption.blockquote-footer {
+  color: #f0e6d3; /* Color del texto que desees */
+  font-style: italic; /* Opcional: estilo de fuente cursiva */
+  margin-top: 10px; /* Opcional: margen superior */
+  text-align: center; /* Opcional: alinear al centro */
+}
+
+figcaption.blockquote-footer cite {
+  color: #f0e6d3; /* Color del texto para el cite */
+  font-weight: bold; /* Opcional: negrita para el cite */
+}
+
 header {
   background-color: #5a3840;
   color: #f0e6d3;
@@ -145,7 +157,7 @@ header {
 }
 
 body {
-  font-family: "Arial, sans-serif";
+  font-family: "italic";
   font-size: 16px;
   color: #ffffff;
   background-color: #f3d2c1;
@@ -358,12 +370,6 @@ section {
   margin-top: 50px;
 }
 
-.price {
-  margin-left: 30px;
-  color: #232ecc;
-  display: flex;
-}
-
 .item {
   text-align: center;
 }
@@ -391,16 +397,6 @@ section {
 .text {
   flex: 1;
   padding: 0 20px;
-  text-align: center;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-table td {
-  padding: 10px;
-  border: 1px solid #ccc;
   text-align: center;
 }
 

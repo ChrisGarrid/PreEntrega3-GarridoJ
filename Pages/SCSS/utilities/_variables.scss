@@ -10,5 +10,17 @@ $footer-color: #f0e6d3;
 $nav-background: #9a742d;
 $nav-hover-background: #6b3d31;
 
-$font-family-base: 'Arial, sans-serif';
+$font-family-base: 'italic';
 $font-size-base: 16px;
+
+figcaption.blockquote-footer {
+    color: #f0e6d3; /* Color del texto que desees */
+    font-style: italic; /* Opcional: estilo de fuente cursiva */
+    margin-top: 10px; /* Opcional: margen superior */
+    text-align: center; /* Opcional: alinear al centro */
+}
+
+figcaption.blockquote-footer cite {
+    color: #f0e6d3; /* Color del texto para el cite */
+    font-weight: bold; /* Opcional: negrita para el cite */
+}
