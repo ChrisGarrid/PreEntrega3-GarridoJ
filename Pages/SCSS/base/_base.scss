@@ -40,7 +40,7 @@ section {
   border-radius: 15px;
 }
 .container{
-background-color: #6b8e23; /* Tono verde musgo */
+    background: radial-gradient(circle, #6b8e23, #556b2f, #8b4513); /* De verde musgo a verde oliva y marrón */
 padding: 20px;
 border-radius: 10px;
 margin-bottom: 20px;
@@ -48,7 +48,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 border: 1px solid #556b2f; /* Un poco más oscuro que el verde musgo */
 }
 .col-sm-6 col-lg-8 themed-grid-col{
-  background-color: #6b8e23; /* Tono verde musgo */
+      background: radial-gradient(circle, #6b8e23, #556b2f, #8b4513); /* De verde musgo a verde oliva y marrón */
 padding: 20px;
 border-radius: 10px;
 margin-bottom: 20px;
