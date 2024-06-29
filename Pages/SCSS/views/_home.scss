@@ -1,0 +1,59 @@
+/* Contactanos */
+.contact-image{
+    margin-top: 10px;
+    display: flex;
+}
+.Contactanos {
+    background: #5462F1;
+    background: linear-gradient(135deg, #5a3840, #f3d2c1);
+    border-style: dashed;
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    /* background-color: #ffffff;  Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.Contactanos h2 {
+    margin-top: 0;
+}
+
+.Contactanos form {
+    text-align: left;
+}
+
+.Contactanos label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Contactanos input[type="text"],
+.Contactanos input[type="email"],
+.Contactanos input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Contactanos input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.Contactanos input[type="submit"] {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Contactanos input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor sobre el botón */
+}

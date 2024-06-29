@@ -1,0 +1,64 @@
+// _layout.scss
+
+header {
+  background-color: $header-background;
+  color: $header-color;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav {
+  background-color: $nav-background;
+  padding: 20px;
+  text-align: center;
+
+  a {
+    color: $header-color;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $nav-hover-background;
+    }
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: $nav-background;
+      min-width: 160px;
+      z-index: 1;
+
+      a {
+        color: $header-color;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+        &:hover {
+          background-color: $nav-hover-background;
+        }
+      }
+    }
+
+    &:hover .dropdown-content {
+      display: block;
+    }
+  }
+}
+
+footer {
+  background-color: $footer-background;
+  color: $footer-color;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,222 @@
+// _components.scss
+@import url(utilities/_variables.scss);
+@import url(utilities/_mixing.scss);
+
+.contact-image {
+  margin-top: 10px;
+  display: flex;
+}
+
+.Contactanos {
+  background: linear-gradient(135deg, $header-background, $background-color);
+  border-style: dashed;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  form {
+    text-align: left;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="checkbox"] {
+      margin-top: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      @include transition(background-color, 0.3s);
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
+/*blog*/
+.blog-post {
+  max-width: 800px; /* Cambia este valor según tus preferencias */
+  margin: 0 auto; /* Esto centra el elemento horizontalmente */
+  display: flex;
+  flex-direction: column; /* Cambiamos la dirección del flexbox a columna */
+  margin-bottom: 20px;
+  /* border: 1px solid #ccc; */
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content {
+  padding: 20px;
+  max-width: 50%; /* Ancho máximo igual al 100% */
+  /* border: 1px solid #ccc; Agrega un borde sólido de 1px */
+}
+.content h2 {
+  margin-top: 0;
+}
+
+.excerpt {
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments h3 {
+  margin-top: 0;
+}
+
+.comments form textarea {
+  width: 50%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.comments form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+  .comments {
+    margin-top: 20px;
+
+    h3 {
+      margin-top: 0;
+    }
+
+    form textarea {
+      width: 50%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    form button {
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+.imagenproducto, .imagenproducto1, .imagenproducto2, .imagenproducto3 {
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.imagenEquipo {
+  width: 300px;
+  height: 200px;
+}
+
+.variedades {
+  margin-top: 50px;
+  display: inline-flex;
+}
+
+.product-name {
+  margin-left: 30px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+}
+
+.listavariedades {
+  margin-top: 50px;
+}
+
+.price {
+  margin-left: 30px;
+  color: #232ecc;
+  display: flex;
+}
+
+.item {
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.container {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex: 1;
+  margin-left: 10px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.text {
+  flex: 1;
+  padding: 0 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+}
